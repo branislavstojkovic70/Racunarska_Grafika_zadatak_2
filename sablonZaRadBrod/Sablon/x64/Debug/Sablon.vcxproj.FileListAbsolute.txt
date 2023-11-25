@@ -1,0 +1,4 @@
+C:\Users\Bogdan\Downloads\sablonZaRadBrod\Sablon\x64\Debug\glew32.dll
+C:\Users\Bogdan\Downloads\sablonZaRadBrod\Sablon\x64\Debug\Sablon.exe
+C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\x64\Debug\glew32.dll
+C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\x64\Debug\Sablon.exe
