@@ -356,7 +356,7 @@ int main(void) {
         float semiCircleX = 0.0f;
         centerX += speed + 0.0000000001 * ship.getSpeed();
         if (centerX > 2.0f) {
-            centerX = 0.0f;
+            centerX = -2.0f;
         }
         drawSemiCircle(unifiedShader, centerX, semiCircleY, semiCircleRadius, semiCircleSegments, aspectRatio);
 
