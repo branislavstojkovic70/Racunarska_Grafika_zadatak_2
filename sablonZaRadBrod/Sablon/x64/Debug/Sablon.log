@@ -1,44 +1,44 @@
 ﻿  main.cpp
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(9,48): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(9,48): warning C4305: 'initializing': truncation from 'double' to 'float'
   (compiling source file 'main.cpp')
   
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,61): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,61): warning C4305:         with
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,61): warning C4305:         [
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,61): warning C4305:             _Ty=float
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,61): warning C4305:         ]
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,61): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,61): warning C4305:         with
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,61): warning C4305:         [
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,61): warning C4305:             _Ty=float
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,61): warning C4305:         ]
   (compiling source file 'main.cpp')
   
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,74): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,74): warning C4305:         with
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,74): warning C4305:         [
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,74): warning C4305:             _Ty=float
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,74): warning C4305:         ]
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,74): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,74): warning C4305:         with
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,74): warning C4305:         [
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,74): warning C4305:             _Ty=float
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,74): warning C4305:         ]
   (compiling source file 'main.cpp')
   
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,81): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,81): warning C4305:         with
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,81): warning C4305:         [
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,81): warning C4305:             _Ty=float
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,81): warning C4305:         ]
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,81): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,81): warning C4305:         with
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,81): warning C4305:         [
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,81): warning C4305:             _Ty=float
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,81): warning C4305:         ]
   (compiling source file 'main.cpp')
   
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,88): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,88): warning C4305:         with
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,88): warning C4305:         [
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,88): warning C4305:             _Ty=float
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(10,88): warning C4305:         ]
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,88): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,88): warning C4305:         with
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,88): warning C4305:         [
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,88): warning C4305:             _Ty=float
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(10,88): warning C4305:         ]
   (compiling source file 'main.cpp')
   
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\Ship.h(11,37): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\Ship.h(11,37): warning C4305: 'initializing': truncation from 'double' to 'float'
   (compiling source file 'main.cpp')
   
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\main.cpp(67,17): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\main.cpp(100,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\main.cpp(101,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\main.cpp(103,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\main.cpp(104,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\main.cpp(130,17): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\main.cpp(137,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\main.cpp(337,75): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-  Sablon.vcxproj -> C:\Users\bangi\Desktop\sablonZaRadBrod\Sablon\x64\Debug\Sablon.exe
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\main.cpp(67,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\main.cpp(100,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\main.cpp(101,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\main.cpp(103,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\main.cpp(104,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\main.cpp(130,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\main.cpp(342,75): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\main.cpp(357,26): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  Sablon.vcxproj -> C:\Users\bangi\Documents\GitHub\Racunarska_Grafika_zadatak_2\sablonZaRadBrod\Sablon\x64\Debug\Sablon.exe

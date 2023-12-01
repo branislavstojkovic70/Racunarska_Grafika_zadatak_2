@@ -126,7 +126,7 @@ void drawCompassNeedle(unsigned int shaderProgram, float centerX, float centerY,
 
 
 
-void drawSemiCircle(unsigned int shaderProgram, float centerX, float centerY, float radius, int numSegments, float aspectRatio, float speed) {
+void drawSemiCircle(unsigned int shaderProgram, float centerX, float centerY, float radius, int numSegments, float aspectRatio) {
     float twoPi = 2.0f * M_PI;
     unsigned int VBO, VAO;
     glGenVertexArrays(1, &VAO);
@@ -134,16 +134,20 @@ void drawSemiCircle(unsigned int shaderProgram, float centerX, float centerY, fl
     glBindVertexArray(VAO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
 
-    float time = glfwGetTime(); // Brzina translacije
-    float translation = fmod(speed/10, 2.0f * aspectRatio) - aspectRatio; //ovde umesto time ubaciti speed da zavisi od brzine
 
+    std::cout << centerX;
+    std::cout << "                       ";
     std::vector<float> circleVertices;
-    circleVertices.push_back(centerX + translation); // Transliran centar X
+    
+    circleVertices.push_back(centerX);
+    
+ 
+     // Transliran centar X
     circleVertices.push_back(centerY); // Centar Y
 
     for (int i = 0; i <= numSegments / 2; i++) {
         float theta = twoPi * float(i) / float(numSegments);
-        float x = radius * cosf(theta) / aspectRatio + translation; // Translacija
+        float x = radius * cosf(theta) / aspectRatio; // Translacija
         float y = radius * sinf(theta);
         circleVertices.push_back(centerX + x);
         circleVertices.push_back(centerY + y);
@@ -286,6 +290,8 @@ int main(void) {
 
     startSimulation(&ship);
     double progressSpeed = 0;
+    double speed = 0;
+    float centerX = 0.0f;
     while (!glfwWindowShouldClose(window)) {
         if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
             glfwSetWindowShouldClose(window, GL_TRUE);
@@ -293,8 +299,7 @@ int main(void) {
 
         //std::cout << "ship.fuel: " << ship.getFuelAmount() << std::endl;
         //std::cout << "Ship.maxfuel: " << ship.getMaxFuelAmount() << std::endl;
-        std::cout << "Ship.maxfuel: " << ship.getMaxSpeed() << std::endl;
-        std::cout << "Ship: " << ship.getSpeed() << std::endl;
+
 
         int windowWidth, windowHeight;
         glfwGetFramebufferSize(window, &windowWidth, &windowHeight);
@@ -347,8 +352,13 @@ int main(void) {
         float semiCircleRadius = 0.5f; // Radius of the semi-circle
         int semiCircleSegments = 100; // Number of segments for smoothness
         float semiCircleY = -0.9f + semiCircleRadius + 0.1f; // Adjust Y-position here
-
-        drawSemiCircle(unifiedShader, 0.0f, semiCircleY, semiCircleRadius, semiCircleSegments, aspectRatio,ship.getSpeed());
+        speed = 0.02;
+        float semiCircleX = 0.0f;
+        centerX += speed + 0.0000000001 * ship.getSpeed();
+        if (centerX > 2.0f) {
+            centerX = 0.0f;
+        }
+        drawSemiCircle(unifiedShader, centerX, semiCircleY, semiCircleRadius, semiCircleSegments, aspectRatio);
 
         drawBlueRectangle(unifiedShader, static_cast<float>(windowHeight));
 
